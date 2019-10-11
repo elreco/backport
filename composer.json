@@ -1,11 +1,11 @@
 {
     "name": "elreco/backport",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexandre",
             "email": "a.elreco@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {}
 }
