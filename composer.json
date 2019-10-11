@@ -1,14 +1,14 @@
 {
-    "name": "wiledia/backport",
+    "name": "Elreco/backport",
     "description": "backport",
     "type": "library",
-    "keywords": ["laravel", "backport", "backend", "wiledia"],
-    "homepage": "https://github.com/wiledia/backport",
+    "keywords": ["laravel", "backport", "backend", "Elreco"],
+    "homepage": "https://github.com/Elreco/backport",
     "license": "MIT",
     "authors": [
         {
-            "name": "wiledia",
-            "email": "hellow@wiledia.com"
+            "name": "Elreco",
+            "email": "hellow@Elreco.com"
         }
     ],
     "require": {
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Wiledia\\Backport\\": "src/"
+            "Elreco\\Backport\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -52,10 +52,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wiledia\\Backport\\BackportServiceProvider"
+                "Elreco\\Backport\\BackportServiceProvider"
             ],
             "aliases": {
-                "Backport": "Wiledia\\Backport\\Facades\\Backport"
+                "Backport": "Elreco\\Backport\\Facades\\Backport"
             }
         }
     }

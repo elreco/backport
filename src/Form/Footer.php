@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Form;
+namespace Elreco\Backport\Form;
 
-use Wiledia\Backport\Backport;
+use Elreco\Backport\Backport;
 use Illuminate\Contracts\Support\Renderable;
 
 class Footer implements Renderable

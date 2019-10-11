@@ -1,6 +1,6 @@
 <?php
 
-use Wiledia\Backport\Auth\Database\Administrator;
+use Elreco\Backport\Auth\Database\Administrator;
 use Illuminate\Support\Facades\File;
 use Tests\Models\Image;
 use Tests\Models\MultipleImage;

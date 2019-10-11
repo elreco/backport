@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Console;
+namespace Elreco\Backport\Console;
 
 use Illuminate\Console\Command;
 
@@ -28,7 +28,7 @@ class PublishCommand extends Command
     public function handle()
     {
         $force = $this->option('force');
-        $options = ['--provider' => 'Wiledia\Backport\AdminServiceProvider'];
+        $options = ['--provider' => 'Elreco\Backport\AdminServiceProvider'];
         if ($force == true) {
             $options['--force'] = true;
         }

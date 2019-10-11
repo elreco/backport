@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Show;
+namespace Elreco\Backport\Show;
 
 class Divider extends Field
 {

@@ -1,6 +1,6 @@
 <?php
 
-use Wiledia\Backport\Auth\Database\Administrator;
+use Elreco\Backport\Auth\Database\Administrator;
 use Illuminate\Support\Facades\File;
 
 class UserSettingTest extends TestCase

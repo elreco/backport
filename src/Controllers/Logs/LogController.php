@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Controllers\Logs;
+namespace Elreco\Backport\Controllers\Logs;
 
-use Wiledia\Backport\Facades\Backport;
-use Wiledia\Backport\Layout\Content;
+use Elreco\Backport\Facades\Backport;
+use Elreco\Backport\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 

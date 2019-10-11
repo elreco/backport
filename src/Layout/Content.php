@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Layout;
+namespace Elreco\Backport\Layout;
 
 use Closure;
 use Illuminate\Contracts\Support\Renderable;

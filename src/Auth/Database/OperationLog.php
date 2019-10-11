@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Auth\Database;
+namespace Elreco\Backport\Auth\Database;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

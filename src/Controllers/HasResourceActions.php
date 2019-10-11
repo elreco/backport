@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Controllers;
+namespace Elreco\Backport\Controllers;
 
 trait HasResourceActions
 {

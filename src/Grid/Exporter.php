@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Grid;
+namespace Elreco\Backport\Grid;
 
-use Wiledia\Backport\Grid;
-use Wiledia\Backport\Grid\Exporters\CsvExporter;
+use Elreco\Backport\Grid;
+use Elreco\Backport\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

@@ -121,7 +121,7 @@
                         @foreach($logs as $index => $log)
 
                             <tr>
-                                <td><span class="badge badge-{{\Wiledia\Backport\Controllers\Logs\LogViewer::$levelColors[$log['level']]}}">{{ $log['level'] }}</span></td>
+                                <td><span class="badge badge-{{\Elreco\Backport\Controllers\Logs\LogViewer::$levelColors[$log['level']]}}">{{ $log['level'] }}</span></td>
                                 <td><strong>{{ $log['env'] }}</strong></td>
                                 <td style="width:150px;">{{ $log['time'] }}</td>
                                 <td><code style="word-break: break-all;">{{ $log['info'] }}</code></td>

@@ -1,11 +1,11 @@
 <?php
 
-namespace Wiledia\Backport\Traits;
+namespace Elreco\Backport\Traits;
 
-use Wiledia\Backport\Form;
-use Wiledia\Backport\Settings;
-use Wiledia\Backport\Grid;
-use Wiledia\Backport\Tree;
+use Elreco\Backport\Form;
+use Elreco\Backport\Settings;
+use Elreco\Backport\Grid;
+use Elreco\Backport\Tree;
 
 trait AdminBuilder
 {

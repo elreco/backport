@@ -20,12 +20,12 @@ class TestCase extends BaseTestCase
 
         $app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Admin', \Wiledia\Backport\Facades\Backport::class);
+            $loader->alias('Admin', \Elreco\Backport\Facades\Backport::class);
         });
 
         $app->make('Illuminate\Contracts\Console\Kernel')->bootstrap();
 
-        $app->register('Wiledia\Backport\AdminServiceProvider');
+        $app->register('Elreco\Backport\AdminServiceProvider');
 
         return $app;
     }
@@ -49,7 +49,7 @@ class TestCase extends BaseTestCase
             $this->app['config']->set($key, $value);
         }
 
-        $this->artisan('vendor:publish', ['--provider' => 'Wiledia\Backport\AdminServiceProvider']);
+        $this->artisan('vendor:publish', ['--provider' => 'Elreco\Backport\AdminServiceProvider']);
 
         Schema::defaultStringLength(191);
 

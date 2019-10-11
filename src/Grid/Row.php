@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Grid;
+namespace Elreco\Backport\Grid;
 
 use Closure;
 use Illuminate\Contracts\Support\Htmlable;

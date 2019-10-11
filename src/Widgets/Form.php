@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Widgets;
+namespace Elreco\Backport\Widgets;
 
-use Wiledia\Backport\Form\Field;
+use Elreco\Backport\Form\Field;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 
@@ -210,7 +210,7 @@ class Form implements Renderable
      */
     public static function findFieldClass($method)
     {
-        $class = array_get(\Wiledia\Backport\Form::$availableFields, $method);
+        $class = array_get(\Elreco\Backport\Form::$availableFields, $method);
 
         if (class_exists($class)) {
             return $class;

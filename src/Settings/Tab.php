@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Settings;
+namespace Elreco\Backport\Settings;
 
-use Wiledia\Backport\Settings;
+use Elreco\Backport\Settings;
 use Illuminate\Support\Collection;
 
 class Tab

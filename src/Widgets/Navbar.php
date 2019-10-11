@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Widgets;
+namespace Elreco\Backport\Widgets;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;

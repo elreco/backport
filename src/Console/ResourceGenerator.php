@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Console;
+namespace Elreco\Backport\Console;
 
 use Illuminate\Database\Eloquent\Model;
 

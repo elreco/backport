@@ -3,10 +3,10 @@
 namespace DummyNamespace;
 
 use App\Http\Controllers\Controller;
-use Wiledia\Backport\Controllers\Dashboard;
-use Wiledia\Backport\Layout\Column;
-use Wiledia\Backport\Layout\Content;
-use Wiledia\Backport\Layout\Row;
+use Elreco\Backport\Controllers\Dashboard;
+use Elreco\Backport\Layout\Column;
+use Elreco\Backport\Layout\Content;
+use Elreco\Backport\Layout\Row;
 
 class HomeController extends Controller
 {

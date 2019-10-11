@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Middleware;
+namespace Elreco\Backport\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

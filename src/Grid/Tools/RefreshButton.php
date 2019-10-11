@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Tools;
+namespace Elreco\Backport\Grid\Tools;
 
-use Wiledia\Backport\Backport;
+use Elreco\Backport\Backport;
 
 class RefreshButton extends AbstractTool
 {

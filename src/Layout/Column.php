@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Layout;
+namespace Elreco\Backport\Layout;
 
-use Wiledia\Backport\Grid;
+use Elreco\Backport\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Buildable

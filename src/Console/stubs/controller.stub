@@ -4,11 +4,11 @@ namespace DummyNamespace;
 
 use DummyModelNamespace;
 use App\Http\Controllers\Controller;
-use Wiledia\Backport\Controllers\HasResourceActions;
-use Wiledia\Backport\Form;
-use Wiledia\Backport\Grid;
-use Wiledia\Backport\Layout\Content;
-use Wiledia\Backport\Show;
+use Elreco\Backport\Controllers\HasResourceActions;
+use Elreco\Backport\Form;
+use Elreco\Backport\Grid;
+use Elreco\Backport\Layout\Content;
+use Elreco\Backport\Show;
 
 class DummyClass extends Controller
 {

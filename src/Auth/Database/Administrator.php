@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Auth\Database;
+namespace Elreco\Backport\Auth\Database;
 
-use Wiledia\Backport\Traits\AdminBuilder;
+use Elreco\Backport\Traits\AdminBuilder;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Database\Eloquent\Model;

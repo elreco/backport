@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Console;
+namespace Elreco\Backport\Console;
 
-use Wiledia\Backport\Backport;
+use Elreco\Backport\Backport;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;

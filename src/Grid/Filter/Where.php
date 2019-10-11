@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Filter;
+namespace Elreco\Backport\Grid\Filter;
 
 class Where extends AbstractFilter
 {

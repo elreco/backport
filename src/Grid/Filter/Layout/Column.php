@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Filter\Layout;
+namespace Elreco\Backport\Grid\Filter\Layout;
 
-use Wiledia\Backport\Grid\Filter\AbstractFilter;
+use Elreco\Backport\Grid\Filter\AbstractFilter;
 use Illuminate\Support\Collection;
 
 class Column

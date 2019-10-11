@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Controllers;
+namespace Elreco\Backport\Controllers;
 
-use Wiledia\Backport\Backport;
+use Elreco\Backport\Backport;
 
 class Dashboard
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport;
+namespace Elreco\Backport;
 
 use Closure;
-use Wiledia\Backport\Tree\Tools;
+use Elreco\Backport\Tree\Tools;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 

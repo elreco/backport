@@ -1,6 +1,6 @@
 <?php
 
-use Wiledia\Backport\Auth\Database\Administrator;
+use Elreco\Backport\Auth\Database\Administrator;
 
 class IndexTest extends TestCase
 {

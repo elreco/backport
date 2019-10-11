@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Middleware;
+namespace Elreco\Backport\Middleware;
 
 use Closure;
-use Wiledia\Backport\Backport;
+use Elreco\Backport\Backport;
 use Illuminate\Support\Facades\Auth;
 
 class Authenticate

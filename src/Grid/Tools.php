@@ -1,12 +1,12 @@
 <?php
 
-namespace Wiledia\Backport\Grid;
+namespace Elreco\Backport\Grid;
 
-use Wiledia\Backport\Grid;
-use Wiledia\Backport\Grid\Tools\AbstractTool;
-use Wiledia\Backport\Grid\Tools\BatchActions;
-use Wiledia\Backport\Grid\Tools\FilterButton;
-use Wiledia\Backport\Grid\Tools\RefreshButton;
+use Elreco\Backport\Grid;
+use Elreco\Backport\Grid\Tools\AbstractTool;
+use Elreco\Backport\Grid\Tools\BatchActions;
+use Elreco\Backport\Grid\Tools\FilterButton;
+use Elreco\Backport\Grid\Tools\RefreshButton;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

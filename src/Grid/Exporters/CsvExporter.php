@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Exporters;
+namespace Elreco\Backport\Grid\Exporters;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;

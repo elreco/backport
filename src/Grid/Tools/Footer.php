@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Tools;
+namespace Elreco\Backport\Grid\Tools;
 
-use Wiledia\Backport\Grid;
+use Elreco\Backport\Grid;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Query\Builder;

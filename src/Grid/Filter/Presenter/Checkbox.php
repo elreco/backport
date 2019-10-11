@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Filter\Presenter;
+namespace Elreco\Backport\Grid\Filter\Presenter;
 
-use Wiledia\Backport\Facades\Backport;
+use Elreco\Backport\Facades\Backport;
 
 class Checkbox extends Radio
 {

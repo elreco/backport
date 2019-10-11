@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Exception;
+namespace Elreco\Backport\Exception;
 
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\ViewErrorBag;

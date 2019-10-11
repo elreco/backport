@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Displayers;
+namespace Elreco\Backport\Grid\Displayers;
 
-use Wiledia\Backport\Facades\Backport;
+use Elreco\Backport\Facades\Backport;
 use Illuminate\Support\Arr;
 
 class SwitchGroup extends AbstractDisplayer

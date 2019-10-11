@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Traits;
+namespace Elreco\Backport\Traits;
 
 trait HasAssets
 {

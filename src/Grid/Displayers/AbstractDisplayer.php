@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Displayers;
+namespace Elreco\Backport\Grid\Displayers;
 
-use Wiledia\Backport\Grid;
-use Wiledia\Backport\Grid\Column;
+use Elreco\Backport\Grid;
+use Elreco\Backport\Grid\Column;
 
 abstract class AbstractDisplayer
 {

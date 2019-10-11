@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Filter\Presenter;
+namespace Elreco\Backport\Grid\Filter\Presenter;
 
-use Wiledia\Backport\Backport;
+use Elreco\Backport\Backport;
 
 class Text extends Presenter
 {

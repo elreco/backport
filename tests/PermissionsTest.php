@@ -1,8 +1,8 @@
 <?php
 
-use Wiledia\Backport\Auth\Database\Administrator;
-use Wiledia\Backport\Auth\Database\Permission;
-use Wiledia\Backport\Auth\Database\Role;
+use Elreco\Backport\Auth\Database\Administrator;
+use Elreco\Backport\Auth\Database\Permission;
+use Elreco\Backport\Auth\Database\Role;
 
 class PermissionsTest extends TestCase
 {

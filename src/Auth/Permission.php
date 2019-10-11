@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Auth;
+namespace Elreco\Backport\Auth;
 
-use Wiledia\Backport\Facades\Backport;
-use Wiledia\Backport\Middleware\Pjax;
+use Elreco\Backport\Facades\Backport;
+use Elreco\Backport\Middleware\Pjax;
 use Illuminate\Support\Facades\Auth;
 
 class Permission

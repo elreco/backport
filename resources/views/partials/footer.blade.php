@@ -19,7 +19,7 @@
 
     <div class="d-flex align-items-center">
         @if(config('backport.show_version'))
-            <img alt="Backport Logo" src="{{ asset('vendor/backport/media/logos/logo-footer.png') }}" />&nbsp;&nbsp;<strong class="text-muted">{!! \Wiledia\Backport\Backport::VERSION !!}</strong>
+            <img alt="Backport Logo" src="{{ asset('vendor/backport/media/logos/logo-footer.png') }}" />&nbsp;&nbsp;<strong class="text-muted">{!! \Elreco\Backport\Backport::VERSION !!}</strong>
         @endif
         @if(config('backport.show_environment'))
             <span class="ml-2">{!! env('APP_ENV') !!}</span>

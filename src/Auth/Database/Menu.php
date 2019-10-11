@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Auth\Database;
+namespace Elreco\Backport\Auth\Database;
 
-use Wiledia\Backport\Traits\AdminBuilder;
-use Wiledia\Backport\Traits\ModelTree;
+use Elreco\Backport\Traits\AdminBuilder;
+use Elreco\Backport\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\DB;

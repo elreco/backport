@@ -116,7 +116,7 @@ return [
     */
     'auth' => [
 
-        'controller' => Wiledia\Backport\Controllers\AuthController::class,
+        'controller' => Elreco\Backport\Controllers\AuthController::class,
 
         'guards' => [
             'backport' => [
@@ -128,7 +128,7 @@ return [
         'providers' => [
             'backport' => [
                 'driver' => 'eloquent',
-                'model'  => Wiledia\Backport\Auth\Database\Administrator::class,
+                'model'  => Elreco\Backport\Auth\Database\Administrator::class,
             ],
         ],
 
@@ -172,19 +172,19 @@ return [
 
         // User tables and model.
         'users_table' => 'backport_users',
-        'users_model' => Wiledia\Backport\Auth\Database\Administrator::class,
+        'users_model' => Elreco\Backport\Auth\Database\Administrator::class,
 
         // Role table and model.
         'roles_table' => 'backport_roles',
-        'roles_model' => Wiledia\Backport\Auth\Database\Role::class,
+        'roles_model' => Elreco\Backport\Auth\Database\Role::class,
 
         // Permission table and model.
         'permissions_table' => 'backport_permissions',
-        'permissions_model' => Wiledia\Backport\Auth\Database\Permission::class,
+        'permissions_model' => Elreco\Backport\Auth\Database\Permission::class,
 
         // Menu table and model.
         'menu_table' => 'backport_menu',
-        'menu_model' => Wiledia\Backport\Auth\Database\Menu::class,
+        'menu_model' => Elreco\Backport\Auth\Database\Menu::class,
 
         // Pivot table for table above.
         'operation_log_table'    => 'backport_operation_log',

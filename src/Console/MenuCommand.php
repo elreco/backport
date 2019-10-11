@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Console;
+namespace Elreco\Backport\Console;
 
-use Wiledia\Backport\Facades\Backport;
+use Elreco\Backport\Facades\Backport;
 use Illuminate\Console\Command;
 
 class MenuCommand extends Command

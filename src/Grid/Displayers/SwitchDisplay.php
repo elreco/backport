@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Displayers;
+namespace Elreco\Backport\Grid\Displayers;
 
-use Wiledia\Backport\Backport;
+use Elreco\Backport\Backport;
 
 class SwitchDisplay extends AbstractDisplayer
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Form\Field;
+namespace Elreco\Backport\Form\Field;
 
 use Closure;
-use Wiledia\Backport\Form\Field;
+use Elreco\Backport\Form\Field;
 
 class Display extends Field
 {

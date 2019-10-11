@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Controllers\Logs;
+namespace Elreco\Backport\Controllers\Logs;
 
-use Wiledia\Backport\Extension;
+use Elreco\Backport\Extension;
 
 /**
  * Class LogViewer.

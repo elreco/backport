@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Tools;
+namespace Elreco\Backport\Grid\Tools;
 
-use Wiledia\Backport\Backport;
-use Wiledia\Backport\Grid;
+use Elreco\Backport\Backport;
+use Elreco\Backport\Grid;
 
 class ExportButton extends AbstractTool
 {

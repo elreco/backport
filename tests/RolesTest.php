@@ -1,7 +1,7 @@
 <?php
 
-use Wiledia\Backport\Auth\Database\Administrator;
-use Wiledia\Backport\Auth\Database\Role;
+use Elreco\Backport\Auth\Database\Administrator;
+use Elreco\Backport\Auth\Database\Role;
 
 class RolesTest extends TestCase
 {

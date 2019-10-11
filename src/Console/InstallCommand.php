@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Console;
+namespace Elreco\Backport\Console;
 
 use Illuminate\Console\Command;
 
@@ -51,7 +51,7 @@ class InstallCommand extends Command
         $userModel = config('backport.database.users_model');
 
         if ($userModel::count() == 0) {
-            $this->call('db:seed', ['--class' => \Wiledia\Backport\Auth\Database\AdminTablesSeeder::class]);
+            $this->call('db:seed', ['--class' => \Elreco\Backport\Auth\Database\AdminTablesSeeder::class]);
         }
     }
 

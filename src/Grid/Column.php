@@ -1,10 +1,10 @@
 <?php
 
-namespace Wiledia\Backport\Grid;
+namespace Elreco\Backport\Grid;
 
 use Closure;
-use Wiledia\Backport\Grid;
-use Wiledia\Backport\Grid\Displayers\AbstractDisplayer;
+use Elreco\Backport\Grid;
+use Elreco\Backport\Grid\Displayers\AbstractDisplayer;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;

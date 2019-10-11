@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Widgets;
+namespace Elreco\Backport\Widgets;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

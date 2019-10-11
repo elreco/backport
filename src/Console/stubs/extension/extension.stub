@@ -2,7 +2,7 @@
 
 namespace :namespace;
 
-use Wiledia\Backport\Extension;
+use Elreco\Backport\Extension;
 
 class :class_name extends Extension
 {

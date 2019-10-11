@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Settings\Field;
+namespace Elreco\Backport\Settings\Field;
 
 use Intervention\Image\ImageManagerStatic;
 

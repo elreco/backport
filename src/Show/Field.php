@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Show;
+namespace Elreco\Backport\Show;
 
-use Wiledia\Backport\Show;
+use Elreco\Backport\Show;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

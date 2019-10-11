@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Show;
+namespace Elreco\Backport\Show;
 
-use Wiledia\Backport\Grid;
-use Wiledia\Backport\Show;
+use Elreco\Backport\Grid;
+use Elreco\Backport\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

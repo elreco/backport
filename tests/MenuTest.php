@@ -1,7 +1,7 @@
 <?php
 
-use Wiledia\Backport\Auth\Database\Administrator;
-use Wiledia\Backport\Auth\Database\Menu;
+use Elreco\Backport\Auth\Database\Administrator;
+use Elreco\Backport\Auth\Database\Menu;
 
 class MenuTest extends TestCase
 {

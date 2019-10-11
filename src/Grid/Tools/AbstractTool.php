@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Tools;
+namespace Elreco\Backport\Grid\Tools;
 
-use Wiledia\Backport\Grid;
+use Elreco\Backport\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 abstract class AbstractTool implements Renderable

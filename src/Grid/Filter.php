@@ -1,11 +1,11 @@
 <?php
 
-namespace Wiledia\Backport\Grid;
+namespace Elreco\Backport\Grid;
 
-use Wiledia\Backport\Grid\Filter\AbstractFilter;
-use Wiledia\Backport\Grid\Filter\Group;
-use Wiledia\Backport\Grid\Filter\Layout\Layout;
-use Wiledia\Backport\Grid\Filter\Scope;
+use Elreco\Backport\Grid\Filter\AbstractFilter;
+use Elreco\Backport\Grid\Filter\Group;
+use Elreco\Backport\Grid\Filter\Layout\Layout;
+use Elreco\Backport\Grid\Filter\Scope;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
@@ -594,7 +594,7 @@ class Filter implements Renderable
     public function __call($method, $arguments)
     {
         if (in_array($method, $this->supports)) {
-            $className = '\\Wiledia\\Backport\\Grid\\Filter\\'.ucfirst($method);
+            $className = '\\Elreco\\Backport\\Grid\\Filter\\'.ucfirst($method);
 
             return $this->addFilter(new $className(...$arguments));
         }

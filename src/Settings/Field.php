@@ -1,9 +1,9 @@
 <?php
 
-namespace Wiledia\Backport\Settings;
+namespace Elreco\Backport\Settings;
 
-use Wiledia\Backport\Backport;
-use Wiledia\Backport\Settings;
+use Elreco\Backport\Backport;
+use Elreco\Backport\Settings;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

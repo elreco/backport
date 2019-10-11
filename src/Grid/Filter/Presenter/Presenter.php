@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Filter\Presenter;
+namespace Elreco\Backport\Grid\Filter\Presenter;
 
-use Wiledia\Backport\Grid\Filter\AbstractFilter;
+use Elreco\Backport\Grid\Filter\AbstractFilter;
 
 abstract class Presenter
 {

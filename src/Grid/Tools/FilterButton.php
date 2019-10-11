@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Tools;
+namespace Elreco\Backport\Grid\Tools;
 
-use Wiledia\Backport\Backport;
+use Elreco\Backport\Backport;
 
 class FilterButton extends AbstractTool
 {
@@ -17,7 +17,7 @@ class FilterButton extends AbstractTool
     protected $btnClassName;
 
     /**
-     * @return \Wiledia\Backport\Grid\Filter
+     * @return \Elreco\Backport\Grid\Filter
      */
     protected function filter()
     {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Wiledia\Backport;
+namespace Elreco\Backport;
 
-use Wiledia\Backport\Show\Divider;
-use Wiledia\Backport\Show\Field;
-use Wiledia\Backport\Show\Panel;
-use Wiledia\Backport\Show\Relation;
+use Elreco\Backport\Show\Divider;
+use Elreco\Backport\Show\Field;
+use Elreco\Backport\Show\Panel;
+use Elreco\Backport\Show\Relation;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

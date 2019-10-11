@@ -1,8 +1,8 @@
 <?php
 
-namespace Wiledia\Backport\Settings;
+namespace Elreco\Backport\Settings;
 
-use Wiledia\Backport\Facades\Backport;
+use Elreco\Backport\Facades\Backport;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

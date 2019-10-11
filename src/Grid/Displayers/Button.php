@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Displayers;
+namespace Elreco\Backport\Grid\Displayers;
 
 class Button extends AbstractDisplayer
 {

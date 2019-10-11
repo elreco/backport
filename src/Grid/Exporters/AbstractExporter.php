@@ -1,13 +1,13 @@
 <?php
 
-namespace Wiledia\Backport\Grid\Exporters;
+namespace Elreco\Backport\Grid\Exporters;
 
-use Wiledia\Backport\Grid;
+use Elreco\Backport\Grid;
 
 abstract class AbstractExporter implements ExporterInterface
 {
     /**
-     * @var \Wiledia\Backport\Grid
+     * @var \Elreco\Backport\Grid
      */
     protected $grid;
 
